@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react"
+import  { useState } from "react"
 import { Mail, Phone, MapPin, Send, Github, Linkedin, MessageCircle, Loader2 } from "lucide-react"
 import emailjs from '@emailjs/browser'
 
@@ -116,14 +116,14 @@ const Contact = () => {
             Get In <span className="text-primary">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Let's discuss your next project or just say hello. I'm always open to new opportunities and collaborations.
+            Let`s discuss your next project or just say hello. I`m always open to new opportunities and collaborations.
           </p>
         </div>
 
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="animate-slide-up">
-            <h3 className="text-2xl font-bold mb-8 text-primary">Let's Connect</h3>
+            <h3 className="text-2xl font-bold mb-8 text-primary">Let`s Connect</h3>
 
             <div className="space-y-6 mb-8">
               {contactInfo.map((info, index) => (

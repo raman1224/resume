@@ -6,7 +6,7 @@ const Projects = () => {
       title: "DANGOL AI",
       description:
         "Advanced AI-powered application with machine learning capabilities and intelligent automation features.",
-      image: "/public/g5.png",
+      image: "src/g5.png",
       technologies: ["React", "Node.js", "AI/ML", "Python"],
       liveUrl: "https://raman1224.github.io/DANGOL_AI",
       githubUrl: "https://github.com/raman1224/DANGOL_AI",
@@ -16,7 +16,7 @@ const Projects = () => {
       title: "Global GK",
       description:
         "Comprehensive knowledge sharing platform with articles on technology, science, and current affairs.",
-      image: "/public/globalgk.png",
+      image: "src/globalgk.png",
       technologies: ["Blogger", "HTML", "CSS", "JavaScript"],
       liveUrl: "https://globalgkwww.blogspot.com",
       githubUrl: "#",
@@ -25,7 +25,7 @@ const Projects = () => {
     {
       title: "Translator AI",
       description: "Real-time language translation tool powered by AI with support for multiple languages.",
-      image: "public/translator.png",
+      image: "src/translator.png",
       technologies: [ "AI API", "JavaScript", "CSS"],
       liveUrl: "https://raman1224.github.io/englishtonepali/",
       githubUrl: "#",
@@ -34,7 +34,7 @@ const Projects = () => {
     {
       title: "Medicare Nepal",
       description: "Healthcare management system for Nepal with appointment booking and patient management.",
-      image: "/public/workspace.png",
+      image: "src/workspace.png",
       technologies: ["React", "Node.js", "MongoDB", "Express"],
       liveUrl: "https://medicare-nepal-e6k7.vercel.app/",
       githubUrl: "#",
@@ -43,7 +43,7 @@ const Projects = () => {
     {
       title: "NEWAR SAMAJ Website",
       description: "Community website for Newar Samaj with event management and member portal.",
-      image: "/public/newar.png",
+      image: "src/newar.png",
       technologies: ["HTML", "CSS", "JavaScript", "PHP"],
       liveUrl: "",
       githubUrl: "#",
@@ -52,7 +52,7 @@ const Projects = () => {
     {
       title: "Portfolio Website",
       description: "Personal portfolio website showcasing projects and skills with modern design.",
-      image: "/public/raman.jpg",
+      image: "src/raman.jpg",
       technologies: ["React", "Tailwind CSS", "Vite", "JavaScript"],
       liveUrl: "https://raman1224.github.io/ramandangol",
       githubUrl: "https://github.com/raman1224/ramandangol",

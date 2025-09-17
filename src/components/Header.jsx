@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import PropTypes from "prop-types"
 import { Menu, X, Sun, Moon, Download } from "lucide-react"
 
 const Header = ({ darkMode, toggleDarkMode }) => {
@@ -17,8 +18,8 @@ const Header = ({ darkMode, toggleDarkMode }) => {
 
   const downloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/resume/Raman-Dangol-Resume.pdf"
-    link.download = "Raman-Dangol-Resume.pdf"
+    link.href = "/Raman.pdf"
+    link.download = "Raman.pdf"
     link.click()
   }
 
@@ -98,6 +99,10 @@ const Header = ({ darkMode, toggleDarkMode }) => {
       </nav>
     </header>
   )
+}
+Header.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+  toggleDarkMode: PropTypes.func.isRequired,
 }
 
 export default Header

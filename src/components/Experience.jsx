@@ -119,7 +119,7 @@ const Experience = () => {
           <div className="bg-muted/50 rounded-lg p-8 max-w-2xl mx-auto">
             <h3 className="text-xl font-bold mb-4 text-primary">Looking Forward</h3>
             <p className="text-muted-foreground text-pretty">
-              I'm actively seeking opportunities to contribute to innovative projects and continue growing as a
+              I`m actively seeking opportunities to contribute to innovative projects and continue growing as a
               full-stack developer. My experience in both independent learning and collaborative environments has
               prepared me for the challenges of modern web development.
             </p>

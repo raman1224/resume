@@ -46,7 +46,7 @@ const About = () => {
           <div className="animate-slide-up">
             <div className="mb-8 relative group">
               <img
-                src="/public/hack3.jpg"
+                src="src/hack3.jpg"
                 alt="Developer workspace"
                 className="rounded-2xl shadow-2xl w-full transition-transform duration-500 group-hover:scale-105"
               />
@@ -87,7 +87,7 @@ const About = () => {
                 responsive design. Continuously expanding my knowledge through coursework and practical application.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Based in Kathmandu, Nepal, I'm currently pursuing my Bachelor's in Information Technology while working on personal projects like the{" "}
+                Based in Kathmandu, Nepal, I`m currently pursuing my Bachelor`s in Information Technology while working on personal projects like the{" "}
                 <strong className="text-primary">NEWAR SAMAJ Website</strong>
                 {" "}to enhance my development skills.
               </p>
