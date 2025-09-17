@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Main Content */}
           <div className="animate-slide-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance">
-              Hi, I'm{" "}
+              Hi, I`m{" "}
               <span className="text-primary animate-gradient bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Raman Dangol
               </span>
@@ -32,7 +32,7 @@ const Hero = () => {
             </p>
 
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto text-pretty">
-              Currently pursuing Bachelor's in Information Technology with expertise in React, Node.js, Java, and SQL.
+              Currently pursuing Bachelor`s in Information Technology with expertise in React, Node.js, Java, and SQL.
               Passionate about creating innovative web applications and AI-powered solutions.
             </p>
 

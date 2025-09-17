@@ -1,4 +1,4 @@
-import { Heart, Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -88,7 +88,7 @@ const Footer = () => {
             © {currentYear} Raman Dangol. All rights reserved.
           </p>
           <p className="text-muted-foreground text-center md:text-right mt-2 md:mt-0 flex items-center">
-            Developed by{" "}
+           <img src="public/g5.png" alt="Logo" className="h-12 rounded-full mr-2" /> Developed by{" "}
             <a
               href="https://raman1224.github.io/DANGOL_AI"
               target="_blank"
@@ -97,7 +97,6 @@ const Footer = () => {
             >
               DANGOL AI
             </a>
-            <Heart size={16} className="ml-2 text-red-500" />
           </p>
         </div>
       </div>
