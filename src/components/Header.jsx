@@ -59,7 +59,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
               onClick={toggleDarkMode}
               className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors duration-200"
             >
-              {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+              {darkMode ? <Moon size={20} /> : <Sun size={20} />}
             </button>
 
             {/* Mobile Menu Button */}

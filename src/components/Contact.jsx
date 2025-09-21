@@ -103,7 +103,7 @@ const Contact = () => {
     {
       icon: MessageCircle,
       label: "Portfolio",
-      href: "https://raman1224.github.io/ramandangol",
+      href: "#",
       color: "hover:text-green-600",
     },
   ]
