@@ -18,7 +18,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
 
   const downloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/Raman.pdf"
+    link.href = "/assets/Raman.pdf"
     link.download = "Raman.pdf"
     link.click()
   }

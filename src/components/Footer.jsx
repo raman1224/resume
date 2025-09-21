@@ -88,7 +88,7 @@ const Footer = () => {
             © {currentYear} Raman Dangol. All rights reserved.
           </p>
           <p className="text-muted-foreground text-center md:text-right mt-2 md:mt-0 flex items-center">
-           <img src="src/g5.png" alt="Logo" className="h-12 rounded-full mr-2" /> Developed by{" "}
+           <img src="src/assets/g5.png" alt="Logo" className="h-12 rounded-full mr-2" /> Developed by{" "}
             <a
               href="https://raman1224.github.io/DANGOL_AI"
               target="_blank"
