@@ -46,7 +46,7 @@ const About = () => {
           <div className="animate-slide-up">
             <div className="mb-8 relative group">
               <img
-                src="src/assets/hack3.jpg"
+                src="src/public/hack3.jpg"
                 alt="Developer workspace"
                 className="rounded-2xl shadow-2xl w-full transition-transform duration-500 group-hover:scale-105"
               />

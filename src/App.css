@@ -48,54 +48,6 @@
   --ring: 260 80% 60% / 0.5;
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground font-sans;
-    font-family: "Inter", sans-serif;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-
-  .font-mono {
-    font-family: "JetBrains Mono", monospace;
-  }
-
-  /* Background grid pattern */
-  .bg-grid-pattern {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
-    background-size: 50px 50px;
-  }
-
-  .dark .bg-grid-pattern {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  }
-
-  /* Custom scrollbar styles */
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: hsl(var(--muted));
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: hsl(var(--primary));
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: hsl(var(--secondary));
-  }
-}
 
 /* Utility classes */
 .text-balance {

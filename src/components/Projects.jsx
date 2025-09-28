@@ -6,17 +6,35 @@ const Projects = () => {
       title: "DANGOL AI",
       description:
         "Advanced AI-powered application with machine learning capabilities and intelligent automation features.",
-      image: "src/assets/g5.png",
+      image: "src/public/g5.png",
       technologies: ["React", "Node.js", "AI/ML", "Python"],
       liveUrl: "https://raman1224.github.io/DANGOL_AI",
       githubUrl: "https://github.com/raman1224/DANGOL_AI",
       featured: true,
     },
+     {
+      title: "NEWAR SAMAJ Website",
+      description: "Community website for Newar Samaj with event management and member portal.",
+      image: "src/public/newarsamaj.png",
+      technologies: ["Next js", "React", "TypeScript", "Node js"],
+      liveUrl: "https://newarsamaj.vercel.app/",
+      githubUrl: "#",
+      featured: false,
+    },
+    {
+      title: "Medicare Nepal",
+      description: "Healthcare management system for Nepal with appointment booking and patient management.",
+      image: "src/public/workspace.png",
+      technologies: ["React", "Node.js", "MongoDB", "Express"],
+      liveUrl: "https://medicare-nepal-e6k7.vercel.app/",
+      githubUrl: "#",
+      featured: false,
+    },
     {
       title: "Global GK",
       description:
         "Comprehensive knowledge sharing platform with articles on technology, science, and current affairs.",
-      image: "src/assets/globalgk.png",
+      image: "src/public/globalgk.png",
       technologies: ["Blogger", "HTML", "CSS", "JavaScript"],
       liveUrl: "https://globalgkwww.blogspot.com",
       githubUrl: "#",
@@ -25,39 +43,15 @@ const Projects = () => {
     {
       title: "Translator AI",
       description: "Real-time language translation tool powered by AI with support for multiple languages.",
-      image: "src/assets/translator.png",
+      image: "src/public/translator.png",
       technologies: [ "AI API", "JavaScript", "CSS"],
       liveUrl: "https://raman1224.github.io/englishtonepali/",
       githubUrl: "#",
       featured: false,
     },
-    {
-      title: "Medicare Nepal",
-      description: "Healthcare management system for Nepal with appointment booking and patient management.",
-      image: "src/assets/workspace.png",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      liveUrl: "https://medicare-nepal-e6k7.vercel.app/",
-      githubUrl: "#",
-      featured: false,
-    },
-    {
-      title: "NEWAR SAMAJ Website",
-      description: "Community website for Newar Samaj with event management and member portal.",
-      image: "src/assets/newar.png",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP"],
-      liveUrl: "",
-      githubUrl: "#",
-      featured: false,
-    },
-    {
-      title: "Portfolio Website",
-      description: "Personal portfolio website showcasing projects and skills with modern design.",
-      image: "src/assets/raman.jpg",
-      technologies: ["React", "Tailwind CSS", "Vite", "JavaScript"],
-      liveUrl: "https://raman1224.github.io/ramandangol",
-      githubUrl: "https://github.com/raman1224/ramandangol",
-      featured: false,
-    },
+    
+   
+   
   ]
 
   return (

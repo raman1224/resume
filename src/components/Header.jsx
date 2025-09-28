@@ -18,7 +18,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
 
   const downloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/assets/Raman.pdf"
+    link.href = "/public/Raman.pdf"
     link.download = "Raman.pdf"
     link.click()
   }
@@ -29,7 +29,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold text-primary">
-            Raman<span className="text-secondary">.</span>
+            Raman<span className="text-secondary"> Dangol</span>
           </div>
 
           {/* Desktop Navigation */}

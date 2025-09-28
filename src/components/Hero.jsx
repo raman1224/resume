@@ -14,7 +14,7 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="mb-8 animate-fade-in">
             <div className="w-96 h-96 mx-auto rounded-full overflow-hidden border-4 border-primary/20 animate-float">
-              <img src="src/assets/raman.jpg" alt="Raman Dangol" className="w-full  h-full object-cover" />
+              <img src="src/public/raman.jpg" alt="Raman Dangol" className="w-full  h-full object-cover" />
             </div>
           </div>
 
